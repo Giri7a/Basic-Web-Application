@@ -10,6 +10,7 @@ To Create basic web application using HTML, CSS, Java Script and the backend int
 * Phone number consist 10digits, if not then it will be display the error message like invalid phone number
 * If the username is not exist in the database then it will be display the error message like invalid username!!.
 * If the password is not exist in the database then it will be display the error message like invalid password.
-  
-After successfully login and registration then UI page will be display.
-User should able to logout and redirect to login page again
+##Successfull Login and Register
+* After successfully login and registration then UI page will be display.
+##To do Logout
+* If we click on the logout button then it will be redirect to login page again.
