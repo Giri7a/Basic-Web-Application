@@ -12,5 +12,5 @@ To Create basic web application using HTML, CSS, Java Script and the backend int
 * If the password is not exist in the database then it will be display the error message like invalid password.
 ##Successfull Login and Register
 * After successfully login and registration then UI page will be display.
-##To do Logout
+## To do Logout
 * If we click on the logout button then it will be redirect to login page again.
