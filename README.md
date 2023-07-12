@@ -2,8 +2,12 @@
 To Create basic web application using HTML, CSS, Java Script and the backend integration with python.
 ## To create a Login page
 * Input values are username and password.
+* Give all the user credentials and click on the login button then it will be redirect to the UI page.
+* If do not have an account then you have to click on register button.
 ## To Create a registration Page
 * Input values are name, mobile number, username, password.
+* Give all the user details and click on the register button then it will be redirect to the UI page.
+* If already have an account then you have to click on login button.
 ## Basic form validations
 * If the username is already exist then it will show the message like user already exist.
 * If the password not consist with greater than 8 characters then the error message will be display like invalid password.
