@@ -1,0 +1,108 @@
+<!--<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Account</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">              
+</head>
+<body>
+<div class="container">
+	<div class="row">	
+		<h1>User Profile</h1>
+	</div>
+	<br>
+	<div class="row">	
+		Logged in : <strong>{{session.name}} | <a href="{{ url_for('logout') }}"> Logout</a>
+	</div>
+	<br><br>
+	<div class="row">	    
+		<h2>Welcome to the user profile page...</h2> 
+	</div>		
+</div>
+</body>
+</html>
+-->
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>User Account</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">   
+
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(206, 220, 235);
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  text-align: center;	
+  font-size: 20px;
+}
+
+.row{
+	padding-left: 15px;
+	padding-top: 2px;
+}
+.column{
+	width:720px;
+	height: 208px;
+	border:2px solid black;
+}
+* {
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container" style="padding-left: 20px;">
+	    <h1 style="text-align: end; padding-right: 20px;" >
+		<button type="submit" class="btn btn-primary"style="width:100px;"><a class="bottom"href="{{ url_for('logout') }}" style="color:white">Logout</a></button>
+	    </h1>
+
+  <div class="row">
+
+	<div class="column">
+		<h3><br><br>Hi.....!!!!<br>Welcome to the User Interface</h3>
+	</div>
+
+	<div class="column">
+		<img src="pic.png" width="100%"height="100%"alt="pic">
+	</div>
+  </div>
+   
+  <div class="row">
+	<div class="column">
+		<img src="pic.png" width="40%"height="100%"alt="pic" style="padding-top: 30px;">&nbsp&nbsp &nbsp&nbsp &nbsp
+		<img src="pic.png" width="40%"height="100%"alt="pic"style="padding-top: 30px;">
+		
+	</div>
+	<div class="column">
+		
+		<img src="pic.png" width="40%"height="100%"alt="pic"style="padding-top: 10px;">&nbsp&nbsp &nbsp&nbsp &nbsp
+		<img src="pic.png" width="40%"height="100%"alt="pic"style="padding-top: 10px;">
+	</div>
+
+  </div>
+
+	<div class="row"style="padding: left 20px;">
+		<div class="column">
+			<h2>Contact info</h2>
+			<h4>Name:Ch.Giri<br>
+			Email:abc@gmail.com<br>
+		    Phone Number:XXXXXXXXXX<br>
+		    Address:abc village,xyz mandal,est dist,A.P,531020<br></h4> 
+		</div>  
+		<div class="column">
+			<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15303.885970442245!2d81.82954504474893!3d16.476981098207887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37dddc138a2c2f%3A0x84ef450e2cab44c2!2sRazole%2C%20Andhra%20Pradesh%20533242!5e0!3m2!1sen!2sin!4v1689173576665!5m2!1sen!2sin" width="750" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+		</div>
+	</div> 
+</div>
+<br>
+
+</body>
+</html>
